@@ -12,8 +12,8 @@ require('lazy').setup {
   --    require('Comment').setup({})
 
   -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim', opts = {} },
 
+  { 'numToStr/Comment.nvim', opts = {} },
   require 'kickstart.plugins.gitsigns',
 
   require 'kickstart.plugins.which-key',
@@ -43,10 +43,7 @@ require('lazy').setup {
   require 'kickstart.plugins.treesitter',
 
   -- require 'kickstart.plugins.debug',
-  require 'kickstart.plugins.indent_line',
-
-  --
-  --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
+  -- require 'kickstart.plugins.indent_line',
 
   -- TODO:
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
